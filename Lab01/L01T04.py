@@ -1,0 +1,8 @@
+ekaluku = input("Anna kokonaisluku: ")
+tokaluku = input("Anna toinen kokonaisluku: ")
+summa = int(ekaluku) + int(tokaluku)
+erotus = int(ekaluku) - int(tokaluku)
+tulo = int(ekaluku) * int(tokaluku)
+print("Summa: ",summa)
+print("Erotus: ",erotus)
+print("Tulo: ",tulo)
