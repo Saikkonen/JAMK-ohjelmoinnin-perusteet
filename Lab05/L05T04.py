@@ -1,7 +1,5 @@
 def get_fuel(kilometrit,kulutus):
-    return (round((kilometrit*kulutus)/100, 1))
-
-print(get_fuel(100,7.5))
-print(get_fuel(220,6.9))
-
-#tämä on vielä kesken
+    vastaus = round((kilometrit*kulutus)/100, 1)
+    print(vastaus, "ltr")
+get_fuel(100,7.5)
+get_fuel(220,6.9)
