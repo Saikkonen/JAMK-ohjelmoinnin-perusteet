@@ -1,5 +1,5 @@
 def get_cost(kilometrit,kulutus,hinta):
-    vastaus = round(((kilometrit*kulutus)/100)*hinta, 2)
+    vastaus = ((kilometrit*kulutus)/100)*hinta
     x = format(vastaus, ".2f")
     print(x+"€")
 
