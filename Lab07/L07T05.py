@@ -15,6 +15,5 @@ autot.append(Car("Skoda", "Octavia", 3000))
 autot.append(Car("Audi", "A4", 4000))
 autot.append(Car("Volvo", "v70", 5000))
 
-
 print(*autot, sep="\n")
 print("Autojen hinta yhteensä:",sum(auto.price for auto in autot))
