@@ -6,6 +6,6 @@ for x in range(10):
 lista = ", ".join(nimet)
 print(lista)
 
-nimet.reverse()
+nimet.reverse() #vaihtaa listan nimet järjestyksen käänteiseksi
 lista = ", ".join(nimet)
 print(lista)
